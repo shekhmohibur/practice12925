@@ -24,9 +24,9 @@
 }
 /* all section primary buttons here */
 #hero{
-    width: 1920px;
+    width: 1900px;
     height: 919px;
-    background:linear-gradient(0deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%),url('../assets/hero-bg.png');
+    background:linear-gradient(0deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 100.632%),url('../assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -56,7 +56,7 @@
     height: 160px;
     margin: 16px 0px;
     color: rgb(255, 255, 255);
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 80px;
     text-align: center;
@@ -80,32 +80,26 @@
 .hero-brand-container{
     width: 1320px;
     height: 871px;
-    margin: 167px 300px;
+    margin: 167px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 5px rgb(236, 236, 236);
-
 }
 .brand-title{
     color: rgb(16, 16, 16);
-    font-family: Work Sans;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0%;
+    font-size: 18px;
     text-align: center;
 }
 .brand-heading{
     width: 691px;
-    height: 128px;
+    height: 60px;
     margin: 10px;
     text-align: center;
     color: rgb(16, 16, 16);
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 64px;
 }
 .brand-cards{
     display: flex;
