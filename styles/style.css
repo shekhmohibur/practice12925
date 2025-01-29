@@ -71,3 +71,37 @@
     line-height: 28px;
     text-align: center;
 }
+/* brand sectioin: hero-brand starts from here  */
+#hero-brand{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hero-brand-container{
+    width: 1320px;
+    height: 871px;
+    margin: 167px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.brand-cards{
+    display: flex;
+}
+.brand-cards .brand-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px rgb(191, 191, 191);
+    border-radius: 10px;
+}
+.brand-img{
+    width: 424px;
+    height: 283px;
+}
+.brand-btn{
+    display: block;
+    width: 220px;
+}
