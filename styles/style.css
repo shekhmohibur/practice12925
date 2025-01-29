@@ -157,5 +157,46 @@
 
 /* social section css starts from here */
 #hero-social{
-    
+    height: 671px;
+    display: flex;
+}
+.img-social-attraction img{
+    width: 950px;
+}
+.social-link-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.social-heading{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.social-text{
+    color: rgb(107, 107, 107);
+    font-size: 20px;
+    font-weight: light;
+    line-height: 28px;
+    margin-bottom: 48px;
+
+}
+.social-divider{
+    width: 99.5%;
+    border: 1px solid rgba(16, 16, 16, 0.2);
+}
+.social-invitation{
+    color: rgb(77, 77, 77);
+    font-size: 32px;
+    font-weight: 600;
+    padding: 30px;
+}
+.social-links img{
+    margin-top: 32px;
+    margin-right: 10px;
 }
